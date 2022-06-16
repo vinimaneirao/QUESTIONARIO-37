@@ -57,6 +57,7 @@ class Quiz {
               fill("red");
             }
 
+            posx+=50;
             text(allContestants[i].name + allContestants[i].answer, 130, 280);
 
           }
