@@ -46,6 +46,7 @@ class Quiz {
           fill("Blue");
           textSize(20);
           text("A pessoa correta está em verde", 130, 230);
+        var posx = 200;
           
           for(var i in allContestants){
             var correto = 1;
